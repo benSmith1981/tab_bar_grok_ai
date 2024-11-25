@@ -252,7 +252,7 @@ class _GrokAIFetchTabState extends State<GrokAIFetchTab> {
 
   Future<void> fetchGrokAIResponse() async {
     const String apiUrl = 'https://api.x.ai/v1/chat/completions'; // Replace with actual endpoint
-    const String apiKey = 'xai-pMjUywKoCyEqQz4WWJlnBQ0cZSEmqUs5w3NVN9AV9Px8pfuLV4Y1QuulKQ0lRJ9WjzCLlhh0AVIkhAjI'; // Replace with your API Key
+    const String apiKey = ''; // Replace with your API Key
 
     try {
       final response = await http.post(
